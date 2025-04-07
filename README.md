@@ -1,7 +1,7 @@
 # Simple Notes App
 This is a simple notes app built with React and Django.
 
-install the requiremnts 
+# install the requiremnts 
 apt update -y
 apt install docker.io -y
 apt intall docker-compose-v2 -y 
@@ -13,16 +13,16 @@ apt install nginx and enable nginx
 git clone https://github.com/coding-chandan/django-web-app-with-nginx-mysql.git
 ```
 
-2. Build the app using Dockerfile
+## Build the app using Dockerfile
 ```
 docker build -t <name> .
 ```
 
-3. Run the app using Docker image
+# Run the app using Docker image
 ```
 docker run -d -p 8000:8000 <name>:latest
 ```
-4. run the application using docker compose 
+# run the application using docker compose 
 ...
 docker compose up --build ( if building the image firstly )
 docker compose up ( to run the application using docker compose )
